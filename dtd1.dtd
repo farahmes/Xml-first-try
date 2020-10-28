@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT client  (commande+,date) >
+    <!ELEMENT commande  (produit,quantite) >
+        <!ELEMENT produit (#PCDATA) >
+        <!ELEMENT quantite  (#PCDATA)>
+    <!ELEMENT date (jour,mois,annee) >
